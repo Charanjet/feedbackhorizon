@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>1</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>recipient</field>
+        <field>rating</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -30,24 +30,24 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label>first_name</lookup_label>
+        <lookup_label/>
         <lookup_price/>
-        <lookup_table>sys_user</lookup_table>
-        <lookup_unique>true</lookup_unique>
-        <lookup_value>sys_id</lookup_value>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>feedback_for</name>
-        <order>100</order>
+        <name>rating</name>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Feedback For</question_text>
+        <question_text>Rating</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -56,8 +56,8 @@
         <record/>
         <record_producer_table>x_956260_feedbac_0_fh_feedback</record_producer_table>
         <reference/>
-        <reference_qual>new FeedbackQualifiedUsers().getQualifiedRecipients()</reference_qual>
-        <reference_qual_condition/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,24 +75,24 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-20 08:03:44</sys_created_on>
-        <sys_id>187378642fca7110442218acf699b6b4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Feedback For</sys_name>
-        <sys_package display_value="Feedback Horizon" source="x_956260_feedbac_0">36e7ee3f2ff97110442218acf699b608</sys_package>
+        <sys_created_on>2023-10-20 09:45:18</sys_created_on>
+        <sys_id>283099bc2f423110442218acf699b69a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Rating</sys_name>
+        <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Feedback Horizon">36e7ee3f2ff97110442218acf699b608</sys_scope>
-        <sys_update_name>item_option_new_187378642fca7110442218acf699b6b4</sys_update_name>
+        <sys_update_name>item_option_new_283099bc2f423110442218acf699b69a</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-10-20 10:00:53</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>18</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
-        <validate_regex/>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=187378642fca7110442218acf699b6b4"/>
-    <fx_price action="delete_multiple" query="id=187378642fca7110442218acf699b6b4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=283099bc2f423110442218acf699b69a"/>
+    <fx_price action="delete_multiple" query="id=283099bc2f423110442218acf699b69a"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price_if_checked</field>
-        <id>187378642fca7110442218acf699b6b4</id>
+        <id>283099bc2f423110442218acf699b69a</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-19 12:06:01</sys_created_on>
-        <sys_id>2a1df46c2fca7110442218acf699b63f</sys_id>
+        <sys_created_on>2023-10-20 09:45:19</sys_created_on>
+        <sys_id>8776e9b42fc23110442218acf699b6ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-19 12:06:01</sys_updated_on>
+        <sys_updated_on>2023-10-20 09:45:19</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>rec_price_if_checked</field>
-        <id>187378642fca7110442218acf699b6b4</id>
+        <id>283099bc2f423110442218acf699b69a</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-19 12:06:01</sys_created_on>
-        <sys_id>961df46c2fca7110442218acf699b63e</sys_id>
+        <sys_created_on>2023-10-20 09:45:19</sys_created_on>
+        <sys_id>4b76e9b42fc23110442218acf699b6ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-19 12:06:01</sys_updated_on>
+        <sys_updated_on>2023-10-20 09:45:19</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
