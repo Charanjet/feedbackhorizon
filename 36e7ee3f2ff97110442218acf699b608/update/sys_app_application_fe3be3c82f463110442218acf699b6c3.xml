@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_956260_feedbac_0.fh_analyst,x_956260_feedbac_0.fh_employee,x_956260_feedbac_0.fh_employee_user,x_956260_feedbac_0.fh_feedback_user,x_956260_feedbac_0.fh_manager,x_956260_feedbac_0.fh_manager_user,x_956260_feedbac_0.fh_org_team_member,x_956260_feedbac_0.fh_organization_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-18 11:30:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe3be3c82f463110442218acf699b6c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Feedback Horizon</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Feedback Horizon" source="x_956260_feedbac_0">36e7ee3f2ff97110442218acf699b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Feedback Horizon">36e7ee3f2ff97110442218acf699b608</sys_scope>
+        <sys_update_name>sys_app_application_fe3be3c82f463110442218acf699b6c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-18 11:32:19</sys_updated_on>
+        <title>Feedback Horizon</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

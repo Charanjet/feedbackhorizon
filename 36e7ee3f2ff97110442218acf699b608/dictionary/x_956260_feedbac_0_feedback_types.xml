@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="da605dbc2f423110442218acf699b671" label="Feedback Types" max_length="40" name="x_956260_feedbac_0_feedback_types" type="collection">
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Half Yearly" value="h"/>
+                <element inactive_on_update="false" label="Monthly" value="m"/>
+                <element inactive_on_update="false" label="Yearly" value="y"/>
+            </choice>
+        </element>
+    </element>
+</database>

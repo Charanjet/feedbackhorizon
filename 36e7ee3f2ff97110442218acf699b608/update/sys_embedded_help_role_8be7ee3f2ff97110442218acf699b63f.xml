@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_956260_feedbac_0.fh_manager" name="x_956260_feedbac_0.fh_manager">8fe7ee3f2ff97110442218acf699b63e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 11:57:18</sys_created_on>
+        <sys_id>8be7ee3f2ff97110442218acf699b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8fe7ee3f2ff97110442218acf699b63e</sys_name>
+        <sys_package display_value="Feedback Horizon" source="x_956260_feedbac_0">36e7ee3f2ff97110442218acf699b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Feedback Horizon">36e7ee3f2ff97110442218acf699b608</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8be7ee3f2ff97110442218acf699b63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 11:57:18</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

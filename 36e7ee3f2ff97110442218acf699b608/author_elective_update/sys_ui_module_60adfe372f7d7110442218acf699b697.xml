@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="PH Manager">e8adfe372f7d7110442218acf699b693</application>
+        <filter/>
+        <name>FH Managers</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_956260_feedbac_0.fh_manager_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 13:32:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>60adfe372f7d7110442218acf699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FH Managers</sys_name>
+        <sys_package display_value="Feedback Horizon" source="x_956260_feedbac_0">36e7ee3f2ff97110442218acf699b608</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Feedback Horizon">36e7ee3f2ff97110442218acf699b608</sys_scope>
+        <sys_update_name>sys_ui_module_60adfe372f7d7110442218acf699b697</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 13:32:09</sys_updated_on>
+        <table>x_956260_feedbac_0_fh_manager</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Feedback Horizon">36e7ee3f2ff97110442218acf699b608</application>
+        <file_path/>
+        <instance_id>0acd63a6dba0730049eac597059619f5</instance_id>
+        <instance_name>dev78846</instance_name>
+        <name>sys_ui_module_60adfe372f7d7110442218acf699b697</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="PH Manager">e8adfe372f7d7110442218acf699b693</application><filter/><name>FH Managers</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_956260_feedbac_0.fh_manager_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-17 13:32:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>60adfe372f7d7110442218acf699b697</sys_id><sys_mod_count>0</sys_mod_count><sys_name>FH Managers</sys_name><sys_package display_value="Feedback Horizon" source="x_956260_feedbac_0">36e7ee3f2ff97110442218acf699b608</sys_package><sys_policy/><sys_scope display_value="Feedback Horizon">36e7ee3f2ff97110442218acf699b608</sys_scope><sys_update_name>sys_ui_module_60adfe372f7d7110442218acf699b697</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-17 13:32:09</sys_updated_on><table>x_956260_feedbac_0_fh_manager</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>943550042</payload_hash>
+        <record_name>FH Managers</record_name>
+        <reverted_from/>
+        <source>bae7ee3f2ff97110442218acf699b60a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 13:32:09</sys_created_on>
+        <sys_id>20adfe372f7d7110442218acf699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b3dd6321b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 13:32:09</sys_updated_on>
+        <type>Module</type>
+        <update_guid>64adfe37f97d7110dae127bec2b41899</update_guid>
+        <update_guid_history>64adfe37f97d7110dae127bec2b41899:943550042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 13:59:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0e7fd84d97c144f28272a52e3b2eda31</sys_id>
+        <sys_metadata>60adfe372f7d7110442218acf699b697</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FH Managers</sys_name>
+        <sys_package display_value="Feedback Horizon" source="x_956260_feedbac_0">36e7ee3f2ff97110442218acf699b608</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Feedback Horizon">36e7ee3f2ff97110442218acf699b608</sys_scope>
+        <sys_scope_delete display_value="">2ff72b6491134e688a26812924e18881</sys_scope_delete>
+        <sys_update_name>sys_ui_module_60adfe372f7d7110442218acf699b697</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_60adfe372f7d7110442218acf699b697">20adfe372f7d7110442218acf699b69a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 13:59:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
